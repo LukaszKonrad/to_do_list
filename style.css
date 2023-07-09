@@ -2,14 +2,14 @@ html {
     box-sizing: border-box;
 }
 *,::after, ::before {
-    box-sizing: inherit;
+    box-sizing: inherit; 
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: lightgrey;
     font-weight: bold;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1200px;
 }
 
