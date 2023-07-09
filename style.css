@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+*,::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgrey;
+    font-weight: bold;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+.new_task_field {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: white;
+}
+
+.new_task_input {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: white;
+
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+
+}
+
+.new_task_field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add_new_task_text {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.task_text_field {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.add_new_task_text_two {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.task_text_field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.tasks__list {
+    list-style-type: none;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.js-remove {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: none;
+}
+.js-done {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border: none;
+}

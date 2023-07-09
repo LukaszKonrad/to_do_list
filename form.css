@@ -1,0 +1,31 @@
+.form__label {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__input {
+    flex-basis: 950px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.form__button {
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+    padding: 12px;
+    background-color: teal;
+    color: white;
+}
+
+@media (orientation: portrait) {
+    .form__label {
+        flex-wrap: wrap;
+    }
+    .form__label{
+        flex-basis: 100%
+    }
+}
