@@ -63,6 +63,9 @@ body {
     align-items: center;
 }
 
+.content-throught {
+text-decoration: line-through;
+}
 
 
 .tasks__list {
